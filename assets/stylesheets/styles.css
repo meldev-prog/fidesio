@@ -1,0 +1,115 @@
+body {
+    width: 100%
+    margin : 0 auto;
+    padding-inline: 3em;
+    background : #DCDCDC;
+    font-family: 'Roboto', 'Arial';
+}
+
+/***** SLIDE *****/
+.slide {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.slide-item {
+    margin-bottom: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slide-header {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+hr {
+  color : white;
+  width: 25%;
+  margin-left: 0;
+}
+
+.slide-content {
+    color: white;
+    padding: 10px;
+    display: none;
+    background-color: cornflowerblue;
+}
+
+/****** LOGOS *****/
+#logos {
+    width: 100%;
+    margin-block: 3em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+/**** ARTICLES ****/
+.last-articles {
+    display: flex;
+}
+
+.last-articles > a {
+     text-decoration: none;
+     color: cornflowerblue;
+ }
+
+.icon-articles {
+    margin-right : 1em;
+}
+
+.icon-articles > .small-bar {
+    width: 50%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: cornflowerblue;
+}
+
+.icon-articles > .big-bar {
+    width: 25px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: cornflowerblue;
+    margin-top: 0.2em;
+}
+
+.items-articles {
+    width: 100%;
+    margin-block: 3em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.publication {
+    display: flex;
+    font-size: 0.8em;
+}
+
+.audit {
+    background: deepskyblue;
+    color: white;
+    padding-block: 0.3em;
+    padding-inline: 1em;
+    border-radius: 1em;
+}
+
+.date {
+    font-style: italic;
+    padding-block: 0.3em;
+}
+
+
+/**** RESPONSIVE ****/
+
+@media screen and (max-width: 700px) {
+    .icon-articles {
+        display: none;
+    }
+}
